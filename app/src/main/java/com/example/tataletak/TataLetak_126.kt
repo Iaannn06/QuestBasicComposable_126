@@ -36,7 +36,9 @@ fun TataLetakColumn(modifier: Modifier) {
 
 @Composable
 fun TataLetakRow(modifier: Modifier) {
+    Row(modifier = modifier.padding(top =20.dp, start = 20.dp, end = 20.dp)) {
 
+    }
 }
 
 
