@@ -69,7 +69,11 @@ fun TataLetakColumnRow(modifier: Modifier) {
         //Baris1
         Row(modifier = modifier.fillMaxWidth(),
             horizontalArrangement = Arrangement.SpaceEvenly) {
-
+            Text(text = "Box 1")
+            Text(text = "Column 1")
+            Text(text = "Row 1")
+            Text(text = "Box 2")
+            Text(text = "Column 2")
 
         }
     }
