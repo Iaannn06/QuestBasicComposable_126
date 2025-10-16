@@ -23,7 +23,7 @@ import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 
-private val Alignment.Companion.center: Alignment
+
 
 @Composable
 fun TataLetakColumn(modifier: Modifier) {
@@ -53,7 +53,7 @@ fun TataLetakBox(modifier : Modifier) {
     Box(
         modifier = modifier
             .fillMaxHeight()
-            .fillMaxWidth(), contentAlignment = Alignment.center
+            .fillMaxWidth(), contentAlignment = Alignment.Center
     ) {
         Text(text = "Box 1")
         Text(text = "Column 1")
