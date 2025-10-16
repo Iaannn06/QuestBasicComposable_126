@@ -23,8 +23,11 @@ import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 
+@Composable
 fun TataLetakColumn(modifier: Modifier) {
-    Column(modifier = modifier.padding)
+    Column(modifier = modifier.padding(top = 20.dp, start = 20.dp, end =20.dp)) {
+
+    }
 }
 
 
