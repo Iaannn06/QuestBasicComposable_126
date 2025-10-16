@@ -99,8 +99,10 @@ fun TataLetakRowColumn(modifier: Modifier) {
 
         }
         //Baris2
-        Row(modifier = modifier.fillMaxWidth(),
-            horizontalArrangement = Arrangement.SpaceEvenly) {
+        Row(
+            modifier = modifier.fillMaxWidth(),
+            horizontalArrangement = Arrangement.SpaceEvenly
+        ) {
             Text(text = "Komponen1Baris2")
             Text(text = "Komponenen2Baris2")
             Text(text = "Komponen3Baris2")
@@ -108,5 +110,12 @@ fun TataLetakRowColumn(modifier: Modifier) {
 
     }
 
-    }
+}
 
+@Composable
+fun TataletakBoxColumnRow(modifier: Modifier) {
+    val gambar = painterResource(id = R.drawable.meong)
+    Column {
+
+    }
+}
