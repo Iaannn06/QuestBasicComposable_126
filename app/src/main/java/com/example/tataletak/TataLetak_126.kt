@@ -85,6 +85,21 @@ fun TataLetakColumnRow(modifier: Modifier) {
     }
 }
 
+@Composable
+fun TataLetakRowColumn(modifier: Modifier) {
+    Column() {
+        //Baris1
+        Row(
+            modifier = modifier.fillMaxWidth(),
+            horizontalArrangement = Arrangement.SpaceEvenly
+        ) {
+            Text(text = "Komponen1Baris1")
+            Text(text = "Komponenen2Baris1")
+            Text(text = "Komponen3Baris1")
 
+        }
 
+    }
+
+    }
 
